@@ -41,9 +41,9 @@ namespace TestHAP
                     lstObj.Add(o);
                 }
             }
-            catch(Exception)
+            catch(Exception ex)
             {
-
+                //throw ex;
             }
 
             return lstObj;
