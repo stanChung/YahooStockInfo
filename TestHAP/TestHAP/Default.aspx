@@ -8,16 +8,14 @@
         <div class="form-inline">
             <input id="txtId" class=" form-control" type="text" placeholder="請輸入股票代號" />
             <%--<button id="btnGet" class="btn btn-default"><i class="icon-search"></i>取得</button>--%>
-            <a id="btnGet" class="btn btn-default"><i class="icon-search">取得</i></a>
+            <a id="btnGet" class="easyui-linkbutton" data-options="iconCls:'icon-search'">取得</a>
             <%--<input id="btnGet" class="btn btn-default" type="button" value="取得" />--%>
         </div>
 
 
 
         <table id="tblStock" class="table">
-            <tr></tr>
-            <tr></tr>
-        </table>
+            </table>
 
 
     </div>
